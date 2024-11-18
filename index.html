@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restoran - Bootstrap Restaurant Websites</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Heebo:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Pacifico&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nothing+You+Could+Do&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poiret+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet"/>
+    <!-- google fonts link -->
+
+    <!-- remix icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.4.0/remixicon.css" integrity="sha512-hH7VMMVfPgfkpYx2GazOEG6RrYM+y8cS7FzccwBTWQeyhPv01XYk0MVcuhh4EAimOELWvqKjhNwes/UsYoyN6w==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <!-- remix icon cdn -->
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn -->
+  </head>
+  <body>
+    <div class="bg">
+      <!-- herosection & navbar -->
+      <div class="hero-bg-img">
+        <div class="hero-bg-color">
+          <div class="navbar">
+            <div class="nav-list">
+              <div class="nav-logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+                  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <path d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24" />
+                    <path fill="currentColor" d="M40 12c0 4.418-2.686 8-6 8s-6-3.582-6-8s2.686-8 6-8s6 3.582 6 8"/>
+                  </g>
+                  <h1>Restoran</h1>
+                </svg>
+              </div>
+              <div class="nav-menu">
+                <ul>
+                  <li><a href="#" style="color: #fea116">HOME</a></li>
+                  <li><a href="#">ABOUT</a></li>
+                  <li><a href="#">SERVICE</a></li>
+                  <li><a href="#">MENU</a></li>
+                  <li>
+                    <a href="#">PAGES <i class="ri-arrow-down-s-line"></i></a>
+                  </li>
+                  <li><a href="#">CONTACT</a></li>
+                </ul>
+                <button>BOOK A TABLE</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero">
+            <div class="hero-left">
+              <h1>Enjoy Our <br>
+                Delicious Meal
+              </h1>
+              <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et <br>
+                eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore <br>
+                erat amet
+              </p>
+              <button>BOOK A TABLE</button>
+            </div>
+            <div class="hero-right">
+              <img src="./Assets/hero.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- herosection & navbar -->
+
+      <!-- main section -->
+      <div class="main w-[100%] h[auto] py-[90px] px-[25px] bg-[#FFFFFF]">
+        <div class="main-list w-[100%] h-[auto] flex justify-between gap-[23px]">
+          <div class="main-item h-[100%] w-[25%] px-[22px] py-[35px] bg-[#FFFFFF] hover:bg-[#fea116]">
+            <i class="ri-user-2-fill text-[50px] relative bottom-[8px] text-[#fea116]"></i>
+            <h5 class="text-[20px] font-[800] font-[Nunito]">Master Chefs</h5>
+            <p class="text-[#666565] pt-[5px]">Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+          </div>
+          <div class="main-item h-[100%] w-[25%] px-[22px] py-[37px] bg-[#FFFFFF] hover:bg-[#fea116]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" class="text-[#fea116]" viewBox="0 0 48 48">
+              <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                <path d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24" />
+                <path fill="currentColor" d="M40 12c0 4.418-2.686 8-6 8s-6-3.582-6-8s2.686-8 6-8s6 3.582 6 8"/>
+              </g>
+            </svg>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">Quality Food</h5>
+            <p class="text-[#666565] pt-[5px]">Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+          </div>
+          <div class="main-item h-[100%] w-[25%] px-[22px] py-[35px] bg-[#FFFFFF] hover:bg-[#fea116]">
+            <i class="ri-shopping-cart-2-fill text-[50px] relative bottom-[8px] text-[#fea116]"></i>
+            <h5 class="text-[20px] font-[800] font-[Nunito]">Online Order</h5>
+            <p class="text-[#666565] pt-[5px]">Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+          </div>
+          <div class="main-item h-[100%] w-[25%] px-[22px] py-[37px] bg-[#FFFFFF] hover:bg-[#fea116]">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 512 512" class="text-[#fea116]">
+              <path fill="currentColor" d="M256 48C141.1 48 48 141.1 48 256v40c0 13.3-10.7 24-24 24S0 309.3 0 296v-40C0 114.6 114.6 0 256 0s256 114.6 256 256v144.1c0 48.6-39.4 88-88.1 88l-110.3-.1c-8.3 14.3-23.8 24-41.6 24h-32c-26.5 0-48-21.5-48-48s21.5-48 48-48h32c17.8 0 33.3 9.7 41.6 24l110.4.1c22.1 0 40-17.9 40-40V256c0-114.9-93.1-208-208-208M144 208h16c17.7 0 32 14.3 32 32v112c0 17.7-14.3 32-32 32h-16c-35.3 0-64-28.7-64-64v-48c0-35.3 28.7-64 64-64m224 0c35.3 0 64 28.7 64 64v48c0 35.3-28.7 64-64 64h-16c-17.7 0-32-14.3-32-32V240c0-17.7 14.3-32 32-32z"/>
+            </svg>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">24/7 Service</h5>
+            <p class="text-[#666565] pt-[5px]">Diam elitr kasd sed at elitr sed <br> ipsum justo dolor sed clita amet <br> diam</p>
+          </div>
+        </div>
+        <div class="img-container w-[100%] h-[auto] flex justify-between mt-[100px]">
+          <div class="img-item w-[50%] h-[100%] flex gap-4">
+            <div class="img-part w-[47%] h-[100%] flex flex-col gap-4">
+              <div class="img-box w-[100%] h-[50%]">
+                <img src="./Assets/about-1.jpg" alt="">
+              </div>
+              <div class="img-box w-[100%] h-[50%] flex justify-end">
+                <img src="./Assets/about-3.jpg" class="w-[72%]" alt="">
+              </div>
+            </div>
+            <div class="img-part w-[47%] h-[100%] flex flex-col gap-4 pt-[84px]">
+              <div class="img-box w-[100%] h-[50%]">
+                <img src="./Assets/about-2.jpg" class="w-[72%]" alt="">
+              </div>
+              <div class="img-box w-[100%] h-[50%]">
+                <img src="./Assets/about-4.jpg" alt="">
+              </div>
+            </div>
+          </div>
+          <div class="img-item w-[50%] h-[100%] py-[100px] pl-6">
+            <div class="heading flex gap-[9px] items-center">
+              <h5 class="text-[#FEA116] text-[20px] font-[Pacifico] font-[400]">About Us</h5>
+              <div class="line w-[46px] h-[2.4px] bg-[#fea116]"></div>
+            </div>
+            <h1 class="font-[Nunito] text-[40px] font-[800] flex">Welcome to 
+              <svg xmlns="http://www.w3.org/2000/svg" class="text-[#fea116]" width="46" height="46" viewBox="0 0 48 48">
+                <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                  <path d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24" />
+                  <path fill="currentColor" d="M40 12c0 4.418-2.686 8-6 8s-6-3.582-6-8s2.686-8 6-8s6 3.582 6 8"/>
+                </g>
+              </svg> Restoran
+            </h1>
+            <p class="pt-[18px] text-[#666565]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+            <p class="pt-[18px] text-[#666565]">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <div class="experience w-[100%] flex gap-6 mt-6 h-[56px]">
+              <div class="ex-list flex gap-[15px] px-[16px] h-[100%] w-[50%]" style="border-left: 5px solid #fea116;">
+                <div class="num h-[100%] flex items-center">
+                  <h1 class="font-[Nunito] text-[#fea116] text-[48px] font-[800]">15</h1>
+                </div>
+                <div class="num-year pl-[8px] flex flex-col justify-center">
+                  <p class="text-[#666565] relative top-[3px]">Years of</p>
+                  <h6 class="text-[#0F172B] text-[16px] font-[800] font-[Nunito]">EXPERIENCE</h6>
+                </div>
+              </div>
+              <div class="ex-list flex gap-[15px] px-[16px] h-[100%] w-[50%]" style="border-left: 5px solid #fea116;">
+                <div class="num h-[100%] flex items-center">
+                  <h1 class="font-[Nunito] text-[#fea116] text-[48px] font-[800]">50</h1>
+                </div>
+                <div class="num-year pl-[8px] flex flex-col justify-center">
+                  <p class="text-[#666565] relative top-[3px]">Popular</p>
+                  <h6 class="text-[#0F172B] text-[16px] font-[800] font-[Nunito]">MASTER CHEFS</h6>
+                </div>
+              </div>
+            </div>
+            <button class="mt-[35px] h-[55px] w-[192px] font-[Nunito] rounded-[2px] font-[600] bg-[#fea118] border-[none] text-[white] duration-[400ms] hover:bg-[#feaf39] duration-[400ms]">READ MORE</button>
+          </div>
+        </div>
+        <div class="heading flex gap-[9px] justify-center items-center mt-[80px]">
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+          <h5 class="text-[#FEA116] text-[20px] font-[Pacifico] font-[400]">Food Menu</h5>
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+        </div>
+        <h1 class="font-[Nunito] text-center text-[40px] font-[800]">Most Popular Items</h1>
+        <div class="section-container w-[100%] flex justify-center mt-[35px]">
+          <div class="section-list w-[auto] h-[auto] flex gap-7 border-b-[2px] border-b-[#EEF0F2]">
+            <div class="section-item h-[100%] w-[auto] flex items-center cursor-pointer border-b-[2.3px] pb-3 border-b-[#fea116]">
+              <div class="sec-icon h-[100%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-[#fea116] mt-[7.5px]" width="40" height="40" viewBox="0 0 24 24"><path fill="currentColor" d="M5 3h15a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2v3a4 4 0 0 1-4 4H8a4 4 0 0 1-4-4V4a1 1 0 0 1 1-1m13 2v3h2V5zM2 19h18v2H2z"/></svg>
+              </div>
+              <div class="sec-name h-[100%] ml-3">
+                <small class="text-[#666565] text-[14px] relative top-[6.5px]">Popular</small>
+                <h6 class="text-[#0F172B] text-[16px] font-[800] font-[Nunito]">Breakfast</h6>
+              </div>
+            </div>
+            <div class="section-item h-[100%] w-[auto] flex items-center cursor-pointer">
+              <div class="sec-icon h-[100%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-[#fea116] mt-[7.5px]" width="38" height="38" viewBox="0 0 512 512"><path fill="currentColor" d="M61.1 224C45 224 32 211 32 194.9c0-1.9.2-3.7.6-5.6C37.9 168.3 78.8 32 256 32s218.1 136.3 223.4 157.3c.5 1.9.6 3.7.6 5.6c0 16.1-13 29.1-29.1 29.1zm82.9-96a16 16 0 1 0-32 0a16 16 0 1 0 32 0m240 16a16 16 0 1 0 0-32a16 16 0 1 0 0 32M272 96a16 16 0 1 0-32 0a16 16 0 1 0 32 0M16 304c0-26.5 21.5-48 48-48h384c26.5 0 48 21.5 48 48s-21.5 48-48 48H64c-26.5 0-48-21.5-48-48m16 96c0-8.8 7.2-16 16-16h416c8.8 0 16 7.2 16 16v16c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64z"/></svg>
+              </div>
+              <div class="sec-name h-[100%] ml-3">
+                <small class="text-[#666565] text-[14px] relative top-[6.5px]">Special</small>
+                <h6 class="text-[#0F172B] text-[16px] font-[800] font-[Nunito]">Launch</h6>
+              </div>
+            </div>
+            <div class="section-item h-[100%] w-[auto] flex items-center cursor-pointer">
+              <div class="sec-icon h-[100%]">
+                <svg xmlns="http://www.w3.org/2000/svg" class="text-[#fea116] mt-[7.5px]" width="40" height="40" viewBox="0 0 48 48">
+                  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4">
+                    <path d="M14 4v40M8 5v10c0 5 6 5 6 5s6 0 6-5V5m14 15v24" />
+                    <path fill="currentColor" d="M40 12c0 4.418-2.686 8-6 8s-6-3.582-6-8s2.686-8 6-8s6 3.582 6 8"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="sec-name h-[100%] ml-3">
+                <small class="text-[#666565] text-[14px] relative top-[6.5px]">Lovely</small>
+                <h6 class="text-[#0F172B] text-[16px] font-[800] font-[Nunito]">Dinner</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="food-container w-[100%] h-[auto] flex gap-5 mt-[50px]">
+          <div class="food-list h-[100%] w-[50%]">
+            <div class="food-item w-[100%] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-1.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-3.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-5.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-7.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+          </div>
+          <div class="food-list h-[100%] w-[50%]">
+            <div class="food-item w-[100%] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-2.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-4.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-6.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+            <div class="food-item w-[100%] mt-[25px] flex items-center">
+              <div class="food-img">
+                <img src="./Assets/menu-8.jpg" alt="">
+              </div>
+              <div class="food-detail pl-[23px] pb-[10px]">
+                <p class="text-[20px] font-[800] text-[#0F172B] font-[Nunito]">Chicken Burger <span class="text-[#fea118] font-[Nunito] relative left-[320px]">$115</span></p>
+                <hr class="w-[517px] mt-[5px]">
+                <small class="text-[14px] text-[#666565] font-[400] italic relative top-[5px]">Ipsum ipsum clita erat amet dolor justo diam</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- main section -->
+
+      <!-- video section -->
+      <div class="video-container w-[100%] h-[auto] flex">
+        <div class="video-list h-[auto] w-[50%] relative flex items-center justify-center overflow-hidden">
+          <img src="./Assets/video.jpg" height="100%" width="100%" class="scale-[1.1]" alt="">
+          <div class="play-video h-[100px] w-[100px] bg-[#fea118] absolute rounded-[50%]">
+            <a href="https://youtu.be/hyIh3dukPas?si=juOTr0Ib4dMMosjn" target="_blank" class="flex items-center justify-center h-[100%] w-[100%] rounded-[50%]"><i class="ri-play-large-fill text-[45px] pl-[6px]"></i></a>
+          </div>
+        </div>
+        <div class="video-list h-[auto] w-[50%] bg-[#0F172B] p-[50px]">
+          <div class="heading flex gap-[9px] items-center">
+            <h5 class="text-[#FEA116] text-[20px] font-[Pacifico] font-[400]">Reservation</h5>
+            <div class="line w-[46px] h-[2px] bg-[#fea116]"></div>
+          </div>
+          <h1 class="font-[Nunito] text-[40px] font-[800] text-white">Book A Table Online</h1>
+          <form action="">
+            <div class="input-box w-[100%] mt-5 h-[56px] flex gap-4">
+              <input type="text" class="w-[50%] h-[100%] rounded-[2px] border-[none] outline-none pl-[12px]" placeholder="Your Name" required>
+              <input type="email" class="w-[50%] h-[100%] rounded-[2px] border-[none] outline-none pl-[12px]" placeholder="Your Email" required>
+            </div>
+            <div class="input-box w-[100%] mt-4 h-[56px] flex gap-4">
+              <input type="datetime-local" class="w-[50%] h-[100%] rounded-[2px] border-[none] outline-none pl-[12px]" required>
+              <select name="" id="" class="w-[50%] rounded-[2px] border-[none] outline-none pl-[8px]">
+                <option value="" disabled selected>No Of People</option>
+                <option value="">People 1</option>
+                <option value="">People 2</option>
+                <option value="">People 3</option>
+              </select>
+            </div>
+            <textarea name="" id="" class="mt-4 rounded-[2px] border-[none] outline-none pl-[12px] pt-[10px]" placeholder="Special Request" cols="67%" rows="2"></textarea>
+            <button class="w-[100%] h-[60px] font-[Nunito] font-[600] bg-[#fea116] border-none text-white mt-2 rounded-[2px] duration-[400ms] hover:bg-[#feaf39] duration-[400ms]">BOOK NOW</button>
+          </form>
+        </div>
+      </div>
+      <!-- video section -->
+
+      <!-- main-second-part -->
+      <div class="main2 w-[100%] h-[auto] py-[90px] px-[25px] bg-[#FFFFFF]">
+        <div class="heading flex gap-[9px] justify-center items-center">
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+          <h5 class="text-[#FEA116] text-[20px] font-[Pacifico] font-[400]">Team Members</h5>
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+        </div>
+        <h1 class="font-[Nunito] text-center text-[40px] font-[800]">Our Master Chefs</h1>
+        <div class="person-list w-[100%] h-[auto] flex justify-between gap-6 mt-[40px]">
+          <div class="person-item group h-[100%] w-[auto] bg-[#ffffff] text-center px-[20px] py-[23px] flex flex-col justify-center">
+            <div class="person-img overflow-hidden rounded-[50%] w-[98%]">
+              <img src="./Assets/team-1.jpg" alt="" class="rounded-[50%] w-[100%] pl-[3px] duration-[400ms] group-hover:scale-[1.1] group-hover:duration-[400ms]">
+            </div>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">Full Name</h5>
+            <small class="text-[14px] text-[#666565]">Designation</small>
+            <div class="icons w-[100%] h-[38px] flex justify-center gap-2 mt-4">
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-facebook-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-twitter-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-instagram-line"></i></div>
+            </div>
+          </div>
+          <div class="person-item group h-[100%] w-[auto] bg-[#ffffff] text-center px-[20px] py-[23px] flex flex-col justify-center">
+            <div class="person-img overflow-hidden rounded-[50%] w-[98%]">
+              <img src="./Assets/team-2.jpg" alt="" class="rounded-[50%] w-[100%] pl-[3px] duration-[400ms] group-hover:scale-[1.1] group-hover:duration-[400ms]">
+            </div>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">Full Name</h5>
+            <small class="text-[14px] text-[#666565]">Designation</small>
+            <div class="icons w-[100%] h-[38px] flex justify-center gap-2 mt-4">
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-facebook-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-twitter-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-instagram-line"></i></div>
+            </div>
+          </div>
+          <div class="person-item group h-[100%] w-[auto] bg-[#ffffff] text-center px-[20px] py-[23px] flex flex-col justify-center">
+            <div class="person-img overflow-hidden rounded-[50%] w-[98%]">
+              <img src="./Assets/team-3.jpg" alt="" class="rounded-[50%] w-[100%] pl-[3px] duration-[400ms] group-hover:scale-[1.1] group-hover:duration-[400ms]">
+            </div>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">Full Name</h5>
+            <small class="text-[14px] text-[#666565]">Designation</small>
+            <div class="icons w-[100%] h-[38px] flex justify-center gap-2 mt-4">
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-facebook-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-twitter-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-instagram-line"></i></div>
+            </div>
+          </div>
+          <div class="person-item group h-[100%] w-[auto] bg-[#ffffff] text-center px-[20px] py-[23px] flex flex-col justify-center">
+            <div class="person-img overflow-hidden rounded-[50%] w-[98%]">
+              <img src="./Assets/team-4.jpg" alt="" class="rounded-[50%] w-[100%] pl-[3px] duration-[400ms] group-hover:scale-[1.1] group-hover:duration-[400ms]">
+            </div>
+            <h5 class="text-[20px] font-[800] font-[Nunito] pt-[20px]">Full Name</h5>
+            <small class="text-[14px] text-[#666565]">Designation</small>
+            <div class="icons w-[100%] h-[38px] flex justify-center gap-2 mt-4">
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-facebook-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-twitter-fill"></i></div>
+              <div class="icon h-[100%] w-[35px] bg-[#fea116] rounded-t-[20px] text-white text-[18px] pt-[6px] cursor-pointer"><i class="ri-instagram-line"></i></div>
+            </div>
+          </div>
+        </div>
+        <div class="heading flex gap-[9px] justify-center items-center mt-[85px]">
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+          <h5 class="text-[#FEA116] text-[20px] font-[Pacifico] font-[400]">Testimonial</h5>
+          <div class="line w-[46px] h-[1.5px] bg-[#fea116]"></div>
+        </div>
+        <h1 class="font-[Nunito] text-center text-[40px] font-[800]">Our Clients Say!!!</h1>
+        <div class="client-list w-[100%] h-[auto] flex gap-6 mt-[40px]">
+          <div class="client-item h-[100%] w-[auto] border-[2px] border-[#EFF1F3] p-[25px]">
+            <i class="fa-solid fa-quote-left text-[#fea116] text-[40px] font-[900]"></i>
+            <p class="text-[#666565] pt-[10px]">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="avtar-box mt-[15px] flex">
+              <div class="avtar-img w-[15%]">
+                <img src="./Assets/testimonial-2.jpg" class="rounded-[50%]" width="100%" alt="">
+              </div>
+              <div class="avtar-dtl pl-[17px]">
+                <h5 class="text-[20px] font-[Nunito] font-[800] text-[#0F172B]">Client Name</h5>
+                <p class="text-[#666565] text-[14px] pt-[3px]">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="client-item h-[100%] w-[auto] bg-[#fea116] p-[25px]">
+            <i class="fa-solid fa-quote-left text-[40px] text-white font-[900]"></i>
+            <p class="pt-[10px] text-white">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="avtar-box mt-[15px] flex">
+              <div class="avtar-img w-[15%]">
+                <img src="./Assets/testimonial-3.jpg" class="rounded-[50%]" width="100%" alt="">
+              </div>
+              <div class="avtar-dtl pl-[17px]">
+                <h5 class="text-[20px] font-[Nunito] font-[800] text-white">Client Name</h5>
+                <p class="text-[14px] pt-[3px] text-white">Profession</p>
+              </div>
+            </div>
+          </div>
+          <div class="client-item h-[100%] w-[auto] border-[2px] border-[#EFF1F3] p-[25px]">
+            <i class="fa-solid fa-quote-left text-[#fea116] text-[40px] font-[900]"></i>
+            <p class="text-[#666565] pt-[10px]">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet amet eirmod eos labore diam</p>
+            <div class="avtar-box mt-[15px] flex">
+              <div class="avtar-img w-[15%]">
+                <img src="./Assets/testimonial-4.jpg" class="rounded-[50%]" width="100%" alt="">
+              </div>
+              <div class="avtar-dtl pl-[17px]">
+                <h5 class="text-[20px] font-[Nunito] font-[800] text-[#0F172B]">Client Name</h5>
+                <p class="text-[#666565] text-[14px] pt-[3px]">Profession</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="dots h-[15px] w-[auto] mt-6 flex justify-center gap-3">
+          <div class="dot h-[100%] w-[15px] cursor-pointer border-[1px] border-[#bfbfc0] rounded-[50%]"></div>
+          <div class="dot h-[100%] w-[15px] cursor-pointer bg-[#fea116] rounded-[50%]"></div>
+          <div class="dot h-[100%] w-[15px] cursor-pointer border-[1px] border-[#bfbfc0] rounded-[50%]"></div>
+          <div class="dot h-[100%] w-[15px] cursor-pointer border-[1px] border-[#bfbfc0] rounded-[50%]"></div>
+        </div>
+      </div>
+      <!-- main-second-part -->
+
+      <!-- footer -->
+      <div class="footer w-[100%] h-[auto] bg-[#0F172B] px-[23px]">
+        <div class="footer-list border-b-[2px] border-b-[#1B2336] w-[100%] h-[100%] pt-[90px] pb-[50px] flex justify-between gap-[45px]">
+          <div class="footer-item h-[100%] w-[25%]">
+            <div class="heading flex gap-[9px] items-center">
+              <h5 class="text-[#FEA116] text-[24px] font-[Pacifico] font-[400]">Company</h5>
+              <div class="line w-[46px] h-[2px] bg-[#fea116]"></div>
+            </div>
+            <div class="anchor flex flex-col mt-[20px] text-[#F1F8FF] text-[15px] font-[Nunito]">
+              <a href="#" class="group w-[100%] flex items-center gap-3 leading-[30px] font-[900]"> > <p class="font-[Nunito] font-[600] duration-[400ms] group-hover:tracking-[1.2px] group-hover:duration-[400ms]">About Us</p></a>
+              <a href="#" class="group w-[100%] flex items-center gap-3 leading-[30px] font-[900]"> > <p class="font-[Nunito] font-[600] duration-[400ms] group-hover:tracking-[1.2px] group-hover:duration-[400ms]">Contact Us</p></a>
+              <a href="#" class="group w-[100%] flex items-center gap-3 leading-[30px] font-[900]"> > <p class="font-[Nunito] font-[600] duration-[400ms] group-hover:tracking-[1.2px] group-hover:duration-[400ms]">Reservation</p></a>
+              <a href="#" class="group w-[100%] flex items-center gap-3 leading-[30px] font-[900]"> > <p class="font-[Nunito] font-[600] duration-[400ms] group-hover:tracking-[1.2px] group-hover:duration-[400ms]">Privacy Policy</p></a>
+              <a href="#" class="group w-[100%] flex items-center gap-3 leading-[30px] font-[900]"> > <p class="font-[Nunito] font-[600] duration-[400ms] group-hover:tracking-[1.2px] group-hover:duration-[400ms]">Terms & Condition</p></a>
+            </div>
+            
+          </div>
+          <div class="footer-item h-[100%] w-[25%]">
+            <div class="heading flex gap-[9px] items-center">
+              <h5 class="text-[#FEA116] text-[24px] font-[Pacifico] font-[400]">Contact</h5>
+              <div class="line w-[46px] h-[2px] bg-[#fea116]"></div>
+            </div>
+            <div class="you-detail text-[#F1F8FF] mt-[20px]">
+              <p class="leading-[30px] flex gap-4"><i class="ri-map-pin-fill text-[18px] font-[900]"></i>123 Street, New York, USA</p>
+              <p class="leading-[30px] flex gap-4"><i class="ri-phone-fill text-[18px] font-[900]"></i>+012 345 67890</p>
+              <p class="leading-[30px] flex gap-4"><i class="ri-mail-fill text-[18px] font-[900]"></i>info@example.com</p>
+            </div>
+            <div class="fot-icon-list h-[35px] w-[auto] flex gap-[5px] mt-[15px]">
+              <div class="icon-item group h-[100%] w-[35px] rounded-[50%] border-[#f1f8ff] border-[1px] flex items-center justify-center text-[#f1f8ff] text-[18px] cursor-pointer duration-[400ms] hover:bg-[#f1f8ff] hover:duration-[400ms]"><i class="ri-twitter-fill duration-[400ms] group-hover:text-[#fea116] group-hover:duration-[400ms]"></i></div>
+              <div class="icon-item group h-[100%] w-[35px] rounded-[50%] border-[#f1f8ff] border-[1px] flex items-center justify-center text-[#f1f8ff] text-[18px] cursor-pointer duration-[400ms] hover:bg-[#f1f8ff] hover:duration-[400ms]"><i class="ri-facebook-fill duration-[400ms] group-hover:text-[#fea116] group-hover:duration-[400ms]"></i></div>
+              <div class="icon-item group h-[100%] w-[35px] rounded-[50%] border-[#f1f8ff] border-[1px] flex items-center justify-center text-[#f1f8ff] text-[18px] cursor-pointer duration-[400ms] hover:bg-[#f1f8ff] hover:duration-[400ms]"><i class="ri-youtube-fill duration-[400ms] group-hover:text-[#fea116] group-hover:duration-[400ms]"></i></div>
+              <div class="icon-item group h-[100%] w-[35px] rounded-[50%] border-[#f1f8ff] border-[1px] flex items-center justify-center text-[#f1f8ff] text-[18px] cursor-pointer duration-[400ms] hover:bg-[#f1f8ff] hover:duration-[400ms]"><i class="ri-linkedin-fill duration-[400ms] group-hover:text-[#fea116] group-hover:duration-[400ms]"></i></div>
+            </div>
+          </div>
+          <div class="footer-item h-[100%] w-[25%]">
+            <div class="heading flex gap-[9px] items-center">
+              <h5 class="text-[#FEA116] text-[24px] font-[Pacifico] font-[400]">Opening</h5>
+              <div class="line w-[46px] h-[2px] bg-[#fea116]"></div>
+            </div>
+            <h5 class="font-[Nunito] text-[20px] font-[500] text-[#F1F8FF] pt-[20px]">Monday - Saturday</h5>
+            <p class="text-[#f1f8ff] pt-[5px]">09AM - 09PM</p>
+            <h5 class="font-[Nunito] text-[20px] font-[500] text-[#F1F8FF] pt-[12px]">Sunday</h5>
+            <p class="text-[#f1f8ff] pt-[5px]">10AM - 08PM</p>
+          </div>
+          <div class="footer-item h-[100%] w-[25%]">
+            <div class="heading flex gap-[9px] items-center">
+              <h5 class="text-[#FEA116] text-[24px] font-[Pacifico] font-[400]">Newsletter</h5>
+              <div class="line w-[46px] h-[2px] bg-[#fea116]"></div>
+            </div>
+            <p class="text-[#f1f8ff] pt-[20px]">Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+            <div class="input-box flex h-[57px] w-[280px] rounded-[2px] bg-[white] px-[18.5px] border-[1px] border-[#fea116] mt-[15px]">
+              <form action="" class="flex items-center">
+                <input type="email" class="h-[70%] border-[none] bg-transparent outline-none" placeholder="Your email" id="left">
+                <input type="submit" class="h-[75.5%] w-[80px] bg-[#fea116] rounded-[2px] cursor-pointer text-white duration-[400ms] hover:bg-[#feaf39] hover:duration-[400ms]" value="SIGNUP">
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-list w-[100%] h-[auto] py-[15px] flex">
+          <div class="footer-item h-[100%] w-[50%]">
+            <p class="text-[#f1f8ff] text-[15px] leading-[45px]">© <span class="underline">Your Site Name</span>, All Right Reserved. Designed By <span class="underline">HTML Codex</span><br>
+              Distributed By <span class="underline">ThemeWagon</span> 
+            </p>
+          </div>
+          <div class="footer-item h-[100%] w-[50%] flex justify-end">
+            <p class="text-[#f1f8ff] text-[15px] flex items-center"><span class="cursor-pointer">Home</span> &nbsp;&nbsp;&nbsp; <span class="text-[25px] text-[#2a344d] font-[200]">|</span> &nbsp;&nbsp;&nbsp; <span class="cursor-pointer">Cookies</span> &nbsp;&nbsp;&nbsp; <span class="text-[25px] text-[#2a344d] font-[200]">|</span> &nbsp;&nbsp;&nbsp; <span class="cursor-pointer">Help</span> &nbsp;&nbsp;&nbsp; <span class="text-[25px] text-[#2a344d] font-[200]">|</span> &nbsp;&nbsp;&nbsp; <span class="cursor-pointer">FQAs</span></p>
+          </div>
+        </div>
+      </div>
+      <!-- footer -->
+    </div>
+  </body>
+</html>

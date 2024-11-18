@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Heebo", sans-serif;
+}
+.bg{
+    width: 100%;
+    height: auto;
+    padding-inline: 100px;
+    background-color: #F1F8FF;
+}
+/* <!-- herosection & navbar --> */
+.hero-bg-img{
+    width: 100%;
+    height: auto;
+    background-image: url(./Assets/bg-hero.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    /* background-position: right; */
+}
+.hero-bg-color{
+    width: 100%;
+    height: 100%;
+    background-color: #081028dd;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    padding-inline: 40px;
+    padding-block: 18px;
+}
+.nav-list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo{
+    color: #FEA116;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+.nav-logo h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+.nav-menu ul{
+    display: flex;
+    gap: 25px;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    transition: 0.4s;
+}
+.nav-menu ul li a:hover{
+    color: #FEA116;
+    transition: 0.4s;
+}
+.nav-menu button{
+    height: 43px;
+    width: 170px;
+    background-color: #FEA116;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    font-family: "Nunito", sans-serif;
+    transition: 0.4s;
+}
+.nav-menu button:hover{
+    background-color: #FEAF39;
+    transition: 0.4s;
+}
+.hero{
+    width: 100%;
+    height: auto;
+    padding-inline: 23.5px;
+    display: flex;
+}
+.hero-left{
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding-block: 198px;
+}
+.hero-left h1{
+    font-family: "Nunito", sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 77px;
+}
+.hero-left p{
+    padding-top: 8px;
+    line-height: 24px;
+}
+.hero-left button{
+    height: 56.5px;
+    width: 213px;
+    border: none;
+    color: white;
+    background-color: #FEA116;
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 2px;
+    transition: 0.4s;
+    font-family: "Nunito", sans-serif;
+}
+.hero-left button:hover{
+    background-color: #FEAF39;
+    transition: 0.4s;
+}
+.hero-right{
+    width: 50%;
+    height: 100%;
+    padding-block: 50px;
+    display: flex;
+    justify-content: end;
+    overflow: hidden;
+}
+.hero-right img{
+    height: 96.5%;
+    width: 96.5%;
+    animation: rotate 45s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.main-item{
+    transition: 0.4s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.main-item:hover{
+    transition: 0.4s;
+}
+.main-item:hover svg{
+    color: white;
+    transition: 0.4s;
+}
+.main-item:hover i{
+    color: white;
+    transition: 0.4s;
+}
+.main-item:hover h5{
+    color: white;
+    transition: 0.4s;
+}
+.main-item:hover p{
+    color: white;
+    transition: 0.4s;
+}
+.video-list .play-video{
+    animation: pulse 1.5s infinite;
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+.input-box input::placeholder{
+    color: #666565;
+}
+.input-box select option:disabled{
+    display: none;
+}
+#left::placeholder{
+    padding-left: 6px;
+}
+.person-item{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 0px 24px;
+}
